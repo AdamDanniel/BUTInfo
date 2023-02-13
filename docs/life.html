@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>BUT Informatique</title>
+  <link rel="stylesheet" href="positionLife.css">
+  <link href='https://fonts.googleapis.com/css?family=Nova Flat' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
+  <style>
+  header {
+  font-family:'Nova Flat';
+  }
+  </style>
+  <style>
+  body {
+   font-family: 'Didact Gothic';
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BUT INFORMATIQUE</h1>
+  </header>
+  <nav id="navbar">
+    <ul>
+      <li><a href="./index.html">Introduction BUT Info</a></li>
+      <li><a href="./subject.html">What Subjects ?</a></li>
+      <li><a href="./life.html">Student Life</a></li>
+    </ul>
+  </nav>
+  <main class="content">
+    <h2>Student Life</h2>
+    <div>
+      <h3>Time Table</h3>
+      <ul>
+        <h4>BUT lessons takes place as follows:</h4>
+        <li>
+          <h5>Cours Magistraux (CM)</h5>
+          <p>Lectures in Amphitheater</p>
+        </li>
+        <li>
+          <h5>Travaux Dirigés (TD)</h5>
+          <p>Numerous tutorials to put into practice the knowledge seen in class. 
+            Generally doing practices and exercises. (not using computer)
+          </p>
+        </li>
+        <li>
+          <h5>Travaux Pratiques (TP)</h5>
+          <p>Practical works or exercises that allows us to perform anything
+            practically. (with computer)
+          </p>
+        </li>
+      </ul>
+    </div>
+  </main>
+  <footer>
+    <h3>Follow us on social media!</h3>
+    <a href="https://www.instagram.com/dani3ladam/">Adam Daniel</a><br>
+    <a href="https://www.instagram.com/youchen_363/">Koh You Chen</a>
+  </footer>
+  <script>
+    window.onscroll = function()
+    {myFunction()};
+    var navbar =
+    document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+</body>
+</html>

@@ -172,7 +172,7 @@ h2 + div li{
 }
 
 .amateur{
-  background-image: url(img/1.jpeg);
+  background-image: url(./img/1.jpeg);
   background-position: bottom;
   background-size: 100%;
   padding-top: 10vh;
@@ -181,7 +181,7 @@ h2 + div li{
 }
 
 .intermediate{
-  background-image: url(img/2.jpg);
+  background-image: url(./img/2.jpg);
   background-position: bottom;
   background-size: 100%;
   padding-top: 10vh;
@@ -189,7 +189,7 @@ h2 + div li{
 }
 
 .advance{
-  background-image: url(img/3.jpg);
+  background-image: url(./img/3.jpg);
   background-position: bottom;
   background-size: 100%;
   padding-top: 10vh;
